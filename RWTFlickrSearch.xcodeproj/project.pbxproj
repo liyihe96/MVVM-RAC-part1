@@ -12,6 +12,8 @@
 		078CDEFB1A21A0F2004D40CD /* RWTViewModelServicesImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 078CDEFA1A21A0F2004D40CD /* RWTViewModelServicesImpl.m */; };
 		078CDEFE1A21AB44004D40CD /* RWTFlickrPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 078CDEFD1A21AB44004D40CD /* RWTFlickrPhoto.m */; };
 		078CDF011A21AB9F004D40CD /* RWTFlickrSearchResults.m in Sources */ = {isa = PBXBuildFile; fileRef = 078CDF001A21AB9F004D40CD /* RWTFlickrSearchResults.m */; };
+		078CDF041A21B699004D40CD /* RWTSearchResultsViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 078CDF031A21B699004D40CD /* RWTSearchResultsViewModel.m */; };
+		078CDF071A21C0A3004D40CD /* RWTFlickrPhotoMetadata.m in Sources */ = {isa = PBXBuildFile; fileRef = 078CDF061A21C0A3004D40CD /* RWTFlickrPhotoMetadata.m */; };
 		728550B5193E52740032A754 /* CETableViewBindingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 728550B4193E52740032A754 /* CETableViewBindingHelper.m */; };
 		72E40170192BFFCE00354806 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72E4016F192BFFCE00354806 /* Foundation.framework */; };
 		72E40172192BFFCE00354806 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72E40171192BFFCE00354806 /* CoreGraphics.framework */; };
@@ -61,6 +63,10 @@
 		078CDEFD1A21AB44004D40CD /* RWTFlickrPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTFlickrPhoto.m; sourceTree = SOURCE_ROOT; };
 		078CDEFF1A21AB9F004D40CD /* RWTFlickrSearchResults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTFlickrSearchResults.h; sourceTree = SOURCE_ROOT; };
 		078CDF001A21AB9F004D40CD /* RWTFlickrSearchResults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTFlickrSearchResults.m; sourceTree = SOURCE_ROOT; };
+		078CDF021A21B699004D40CD /* RWTSearchResultsViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTSearchResultsViewModel.h; sourceTree = SOURCE_ROOT; };
+		078CDF031A21B699004D40CD /* RWTSearchResultsViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTSearchResultsViewModel.m; sourceTree = SOURCE_ROOT; };
+		078CDF051A21C0A3004D40CD /* RWTFlickrPhotoMetadata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTFlickrPhotoMetadata.h; sourceTree = SOURCE_ROOT; };
+		078CDF061A21C0A3004D40CD /* RWTFlickrPhotoMetadata.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTFlickrPhotoMetadata.m; sourceTree = SOURCE_ROOT; };
 		728550B2193E52740032A754 /* CEReactiveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEReactiveView.h; sourceTree = "<group>"; };
 		728550B3193E52740032A754 /* CETableViewBindingHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CETableViewBindingHelper.h; sourceTree = "<group>"; };
 		728550B4193E52740032A754 /* CETableViewBindingHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CETableViewBindingHelper.m; sourceTree = "<group>"; };
@@ -237,6 +243,8 @@
 			isa = PBXGroup;
 			children = (
 				078CDEF81A219FF5004D40CD /* RWTViewModelServices.h */,
+				078CDF021A21B699004D40CD /* RWTSearchResultsViewModel.h */,
+				078CDF031A21B699004D40CD /* RWTSearchResultsViewModel.m */,
 				078CDEF11A209C6E004D40CD /* RWTFlickrSearchViewModel.h */,
 				078CDEF21A209C6E004D40CD /* RWTFlickrSearchViewModel.m */,
 			);
@@ -246,6 +254,8 @@
 		72E401C1192C82CA00354806 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				078CDF051A21C0A3004D40CD /* RWTFlickrPhotoMetadata.h */,
+				078CDF061A21C0A3004D40CD /* RWTFlickrPhotoMetadata.m */,
 				078CDEFC1A21AB44004D40CD /* RWTFlickrPhoto.h */,
 				078CDEFD1A21AB44004D40CD /* RWTFlickrPhoto.m */,
 				078CDEFF1A21AB9F004D40CD /* RWTFlickrSearchResults.h */,
@@ -410,11 +420,13 @@
 				72E4017C192BFFCE00354806 /* main.m in Sources */,
 				72E401B9192C03AB00354806 /* RWTSearchResultsViewController.m in Sources */,
 				728550B5193E52740032A754 /* CETableViewBindingHelper.m in Sources */,
+				078CDF041A21B699004D40CD /* RWTSearchResultsViewModel.m in Sources */,
 				72E401B4192C03AB00354806 /* RWTFlickrSearchViewController.m in Sources */,
 				078CDEF71A20B384004D40CD /* RWTFlickrSearchImpl.m in Sources */,
 				078CDEFB1A21A0F2004D40CD /* RWTViewModelServicesImpl.m in Sources */,
 				078CDEF31A209C6E004D40CD /* RWTFlickrSearchViewModel.m in Sources */,
 				078CDEFE1A21AB44004D40CD /* RWTFlickrPhoto.m in Sources */,
+				078CDF071A21C0A3004D40CD /* RWTFlickrPhotoMetadata.m in Sources */,
 				078CDF011A21AB9F004D40CD /* RWTFlickrSearchResults.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
